@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "677666565944",
+    "firebase_url": "https://musify-f72ca-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "musify-f72ca",
+    "storage_bucket": "musify-f72ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677666565944:android:9e08a9323966bf7c96dbcd",
+        "android_client_info": {
+          "package_name": "com.example.musify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677666565944-04j079d6ssvlfbpu1j95ngsgupm949mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOYRovHmpUSO-jJxSzLHe8g3U9ab7zxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677666565944-04j079d6ssvlfbpu1j95ngsgupm949mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677666565944:android:5e0a2e01c99379b896dbcd",
+        "android_client_info": {
+          "package_name": "com.example.musifyuod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677666565944-04j079d6ssvlfbpu1j95ngsgupm949mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOYRovHmpUSO-jJxSzLHe8g3U9ab7zxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677666565944-04j079d6ssvlfbpu1j95ngsgupm949mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

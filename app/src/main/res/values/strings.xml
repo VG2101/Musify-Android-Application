@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musify</string>
+    <string name="previous">previous</string>
+    <string name="Pause">Pause</string>
+    <string name="next">next</string>
+    <string name="logo">logo</string>
+    <string name="songActivityName">Streamed Music</string>
+    <string name="songPlayerName">Music Player</string>
+    <string name="offlineText">Device Songs</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/songActivityRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"> </androidx.recyclerview.widget.RecyclerView>
+    <ProgressBar android:id="@+id/progressBarShowSong" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_centerInParent="true" android:indeterminate="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/songActivityRecyclerView"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/songPic"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"> </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/songTitle"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:ellipsize="marquee" android:fadingEdge="horizontal" android:scrollHorizontally="true" android:marqueeRepeatLimit="marquee_forever" android:gravity="center" android:singleLine="true" android:textColor="#02257A"
+            android:text="Title"> </TextView>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar1"
+            android:layout_marginTop="4dp"
+            android:progressTint="#04E610">
+        </SeekBar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/previousSong"
+                android:layout_weight="1"
+                android:paddingLeft="50dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/previous"> </ImageView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/play_pause"
+                android:layout_weight="1"
+                android:paddingTop="10dp"
+                android:src="@drawable/pause" />
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/nextSong"
+                android:paddingRight="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/forward"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
